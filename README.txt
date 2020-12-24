@@ -38,6 +38,7 @@ Frontend:
 +Podcast Channel
 +Gifos
 +Plantazu (mejorar)
++John the Savage (collab)
 +Weather app (mejorar)
 
 Backend:
@@ -126,3 +127,13 @@ fbdcc4
 
 COMBINACIONES DE AMARILLO:
 #fcff90 / #ffde68
+
+Mientras transito las instancias finales de la carrera Dev Full-Stack de Acamica (Globant), 
+me esfuerzo por incorporar la mayor cantidad de conocimiento posible relacionado a la programación, 
+para perseguir mi pasión de crear aplicaciones web innovadoras y eficientes, tanto desde el Front
+como el Backend.
+Además soy estudiante de la carrera de Comunicación Social de la Universidad de Buenos Aires.
+
+Soft skills: excelente predispoción, capacidad de autoaprendizaje, proactividad, buen liderazgo, agilidad.
+
+

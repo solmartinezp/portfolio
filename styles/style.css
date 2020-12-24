@@ -254,6 +254,10 @@ header .main-header .intro .intro-title {
   color: #e4b127;
 }
 
+.sectionAbout .about-p {
+  font-weight: bold;
+}
+
 .sectionAbout .about-pic-row .about-pic {
   width: 200px;
 }
@@ -329,6 +333,18 @@ header .main-header .intro .intro-title {
 .darkMode .profile-pic {
   z-index: 10;
   content: url(../img/night/20181211_023916777_iOS.jpg);
+}
+
+.darkMode .hi {
+  margin: 0 auto;
+}
+
+.darkMode .hi .title-hi {
+  color: #f4abc4;
+}
+
+.darkMode .sectionAbout .about-p {
+  font-weight: lighter;
 }
 
 .darkMode .sectionAbout .about-pic-row .about-pic {

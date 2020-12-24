@@ -7,7 +7,6 @@ let profile= document.getElementById('profile');
 let navbar= document.getElementsByClassName('navbar-light')[0];
 let body= document.getElementsByTagName('body')[0];
 let dropdowntoggleA= document.getElementsByClassName('dropdown-toggle')[0];
-let titleHi= document.getElementsByClassName('title-hi')[0];
 
 let theme = localStorage.getItem("mode");
     if (theme == "dark") {
@@ -26,7 +25,6 @@ function switchDay () {
     navbar.classList.remove('navbar-light');
     dropdowntoggleA.classList.add('text-light');
     dropdowntoggleA.classList.remove('text-dark');
-    titleHi.style.color= "#f4abc4";
     body.classList.add('darkMode');
     localStorage.setItem('mode', 'dark');
 
@@ -64,7 +62,6 @@ function switchNight () {
     navbar.classList.add('navbar-light');
     dropdowntoggleA.classList.add('text-dark');
     dropdowntoggleA.classList.remove('text-light');
-    titleHi.style.color= "#e4b127"
     body.classList.remove('darkMode');
     localStorage.setItem('mode', 'light');
 

@@ -177,6 +177,9 @@ header {
 //ABOUT
 
 .sectionAbout {
+    .about-p {
+        font-weight: bold;
+    }
     .about-pic-row {
         .about-pic {
             width: 200px;
@@ -245,8 +248,16 @@ header {
         z-index: 10;
         content: url(../img/night/20181211_023916777_iOS.jpg);
     }
-
+    .hi {
+        margin: 0 auto;
+        .title-hi {
+            color: $color7;
+        }
+    }
     .sectionAbout {
+        .about-p {
+            font-weight: lighter;
+        }
         .about-pic-row {
             .about-pic {
                 content: url(../img/night/undraw_in_thought_gjsf.svg);
