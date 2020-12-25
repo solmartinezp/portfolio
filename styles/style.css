@@ -266,6 +266,34 @@ header .main-header .intro .intro-title {
   width: 250px;
 }
 
+.sectionProjects .card {
+  height: 450px;
+}
+
+.sectionProjects .card-body {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sectionProjects .git-repo {
+  color: black;
+}
+
+.sectionProjects .card-footer {
+  position: absolute;
+  bottom: 10px;
+  margin: unset;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
 .footer .container div {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -359,6 +387,10 @@ header .main-header .intro .intro-title {
   background: #595b83;
 }
 
+.darkMode .sectionProjects .git-repo {
+  color: white;
+}
+
 .darkMode .footer a:hover {
   color: #f4abc4;
 }
@@ -414,6 +446,19 @@ header .main-header .intro .intro-title {
     text-decoration: none;
     color: unset;
     margin: unset;
+  }
+}
+
+@media (max-width: 400px) {
+  #projects .card {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  #projects .card-footer {
+    padding: 10px;
+    margin-top: 15px;
+    position: relative;
   }
 }
 /*# sourceMappingURL=style.css.map */

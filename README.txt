@@ -137,3 +137,5 @@ Además soy estudiante de la carrera de Comunicación Social de la Universidad d
 Soft skills: excelente predispoción, capacidad de autoaprendizaje, proactividad, buen liderazgo, agilidad.
 
 
+AGREGAR: 
+-github repositories in projects

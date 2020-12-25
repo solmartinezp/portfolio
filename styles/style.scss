@@ -197,6 +197,28 @@ header {
     }
 }
 
+//PROJECTS
+.sectionProjects {
+    .card {
+        height: 450px;
+    }
+    .card-body {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    .git-repo {
+        color: black;
+    }
+    .card-footer {
+        position: absolute;
+        bottom: 10px;
+        margin: unset;
+        align-self: center;
+    }
+}
+
+
 //FOOTER
 .footer {
     .container {
@@ -277,6 +299,9 @@ header {
         .card {
             background: $color8;
         }
+        .git-repo {
+            color: white;
+        }
     }
 
     .footer {
@@ -316,6 +341,7 @@ header {
         }
     }
 
+
     .footer {
         width: 50%;
         margin: 0 auto;
@@ -332,3 +358,17 @@ header {
         }
     }
 }
+
+@media (max-width: 400px) {
+    #projects {
+        .card {
+            height: max-content;
+        }
+        .card-footer {
+            padding: 10px;
+            margin-top: 15px;
+            position: relative;
+        }
+    }
+}
+
