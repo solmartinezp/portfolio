@@ -128,14 +128,18 @@ fbdcc4
 COMBINACIONES DE AMARILLO:
 #fcff90 / #ffde68
 
-Mientras transito las instancias finales de la carrera Dev Full-Stack de Acamica (Globant), 
-me esfuerzo por incorporar la mayor cantidad de conocimiento posible relacionado a la programación, 
-para perseguir mi pasión de crear aplicaciones web innovadoras y eficientes, tanto desde el Front
-como el Backend.
-Además soy estudiante de la carrera de Comunicación Social de la Universidad de Buenos Aires.
+Me apasiona de crear aplicaciones web innovadoras y eficientes, tanto desde el Front
+como el Backend. 
+
+I'm very passionate about creating applications that are innovative and efficient, from both the Front and Backend.
 
 Soft skills: excelente predispoción, capacidad de autoaprendizaje, proactividad, buen liderazgo, agilidad.
 
-
 AGREGAR: 
 -github repositories in projects
+
+DATA WAREHOUSE: 
+Generarás una herramienta que permita a una compañía de Marketing
+administrar todos los contactos de sus clientes para sus campañas.
+-Es una herramienta de gestión de contactos para campañas de marketing.
+-It's a contact management tool for marketing campaigns.
