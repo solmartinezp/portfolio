@@ -11,18 +11,22 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles/style.css"/>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Personal Portfolio</title>
   </head>
   <body>
     <header id="header">
        <div class="main-header container-fluid" id="main-header">
-        <i class="cloud fas fa-cloud"></i>
-        <i class="cloud fas fa-cloud"></i>
-        <i class="cloud fas fa-cloud"></i>
-        <i class="cloud fas fa-cloud"></i>
-        <i class="cloud fas fa-cloud"></i>
-        <i class="cloud fas fa-cloud"></i>
-
+        <i class="cloud material-icons">cloud</i>
+        <i class="cloud material-icons">cloud</i>
+        <i class="cloud material-icons">cloud</i>
+        <i class="cloud material-icons">cloud</i>
+        <i class="cloud material-icons">cloud</i>
+        <i class="cloud material-icons">cloud</i>
+        <i class="cloud material-icons">cloud</i>
         <div class="profile align-self-center" id="profile">
             <img class="profile-pic" id="profile-pic" src="img/20180621_120208478_iOS.jpg" alt="Sol"/>
         </div>
@@ -38,7 +42,9 @@
       <div class="div-on" id="div-on">
       </div>
       <div class="div-off" id="div-off">
-      <i class="off fas fa-moon"></i>
+      <span class="off material-symbols-outlined">
+          dark_mode
+      </span>
       </div>
     </div>
 
@@ -66,9 +72,12 @@
         <li class="nav-item mx-3">
             <a class="nav-link" href="#tec">Technologies</a>
           </li>
-          <li class="nav-item mx-3">
+        <li class="nav-item mx-3">
             <a class="nav-link" href="#projects">Projects</a>
-          </li>
+        </li>
+        <li class="nav-item mx-3">
+          <a class="nav-link" href="#footer">Contact me</a>
+        </li>
       </ul>
     </div>
     </div>
@@ -99,7 +108,7 @@
 
         <div class="col-md-6 text-center text-md-left">
           <h2 class="display-3">About</h2>
-          <p class="lead font-weight-bold">I'm 21 years old. I live in Buenos Aires, Argentina</p>
+          <p class="lead font-weight-bold">I'm 24 years old. I live in Buenos Aires, Argentina</p>
           <p class="about-p">I'm very passionate about creating applications that are innovative and efficient, from both the Front and Backend.
           </p>
         </div>
@@ -119,18 +128,17 @@
         <ul class="col-md-6 text-left">
           <li class="lead font-weight-bold">-HTML</li>
           <li class="lead font-weight-bold">-CSS</li>
-          <li class="lead font-weight-bold">-SASS</li>
-          <li class="lead font-weight-bold">-Bootstrap</li>
-          <li class="lead font-weight-bold">-Javascript</li>
-          <li class="lead font-weight-bold">-Node.js</li>
+          <li class="lead font-weight-bold">-Javacript</li>
+          <li class="lead font-weight-bold">-React.js</li>
+          <li class="lead font-weight-bold">-React Native</li>
+          <li class="lead font-weight-bold">-Expo</li>
         </ul>
         <ul class="col-md-6 text-left">
-          <li class="lead font-weight-bold">-Express</li>
-          <li class="lead font-weight-bold">-API RESTful</li>
+          <li class="lead font-weight-bold">-Node.js</li>
+          <li class="lead font-weight-bold">-Google Cloud Platform</li>
           <li class="lead font-weight-bold">-MySQL</li>
           <li class="lead font-weight-bold">-MongoDB</li>
           <li class="lead font-weight-bold">-Git/Github</li>
-          <li class="lead font-weight-bold">-Heroku</li>
         </ul>
       </div>
       </div>
@@ -156,6 +164,27 @@
       </div>
 
       <div class="row p-5">
+             <!--CARD 7--->
+             <div class="col-lg-3 col-sm-6 p-2"> <!--4 columns in large screens / 6 columns in small screens-->
+              <div class="card">
+                  <a href="https://tipieapp.com" target="_blank">
+                      <img class="card-img-top" src="img/tipieapp.gif" alt="Placeholder"/> <!--top of the card-->
+                  </a> 
+                  <div class="card-body"> <!--body of the card-->
+                      <h4 class="card-title"> <!--title of the card-->
+                              Tipie app
+                      </h4>
+                      <p class="card-text">
+                        FRONT+ BACK
+                      </p>
+                      <p class="card-text">
+                        A digital platform that handles collecting tips with credit and debit cards to distribute them among the staff of the business.
+                      </p>
+                  </div>
+                  
+              </div>
+              
+          </div>
                   <!--CARD 7--->
                   <div class="col-lg-3 col-sm-6 p-2"> <!--4 columns in large screens / 6 columns in small screens-->
                     <div class="card">
@@ -335,10 +364,12 @@
 <footer id="footer" class="footer my-5">
   <div class="container">
       <div class="row d-flex">
-        <a href="mailto:solmartinezpisani@gmail.com" target="_blank"><i class="icon-footer fas fa-envelope"></i></a>
-        <a href="https://github.com/solmartinezp" target="_blank"><i class="icon-footer fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/sol-mart%C3%ADnez-326845159/" target="_blank""><i class="icon-footer fab fa-linkedin"></i></a>
-        <a href="https://www.instagram.com/solcitomarti/" target="_blank""><i class="icon-footer fab fa-instagram"></i></a>
+        <a href="https://github.com/solmartinezp" target="_blank">Github</i></a>
+        <a href="mailto:solmartinezpisani@gmail.com" target="_blank">
+          <span class="material-symbols-outlined">
+          mail
+          </span></i></a>
+        <a href="https://www.linkedin.com/in/sol-mart%C3%ADnez-326845159/" target="_blank">Linkedin</a>
 
       </div>
   </div>

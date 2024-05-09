@@ -33,13 +33,14 @@ function switchDay () {
         cloudIcons[x].style.display= "none"; 
     }
     //ADD THE STARS
-    let txt= '<i class="stars fas fa-bahai"></i>' +
-    '<i class="stars fas fa-bahai"></i>' + 
-    '<i class="stars fas fa-bahai"></i>' +
-    '<i class="stars fas fa-bahai"></i>'+ 
-    '<i class="stars fas fa-bahai"></i>' + 
-    '<i class="stars fas fa-bahai"></i>' +
-    '<i class="stars fas fa-bahai"></i>';
+    let txt= '<span class="stars material-symbols-outlined"> star </span>' +
+    '<span class="stars material-symbols-outlined"> star </span>' + 
+    '<span class="stars material-symbols-outlined"> star </span>' +
+    '<span class="stars material-symbols-outlined"> star </span>'+ 
+    '<span class="stars material-symbols-outlined"> star </span>' + 
+    '<span class="stars material-symbols-outlined"> star </span>' +
+    '<span class="stars material-symbols-outlined"> star </span>';
+
     if(document.getElementsByClassName('stars').length == 0) {
         mainHeader.innerHTML += txt;    
     } else { 
